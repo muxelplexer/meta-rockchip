@@ -1,5 +1,5 @@
 SRC_URI = "git://github.com/rockchip-linux/rkbin;protocol=https;branch=master"
-SRCREV = "f43a462e7a1429a9d407ae52b4745033034a6cf9"
+SRCREV = "74213af1e952c4683d2e35952507133b61394862"
 LICENSE = "Proprietary"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=11e3673115959bf596feaaa6ea7ce9a5"
 
@@ -11,6 +11,7 @@ COMPATIBLE_MACHINE = "^$"
 COMPATIBLE_MACHINE:rk3308 = "rk3308"
 COMPATIBLE_MACHINE:rk3566 = "rk3566"
 COMPATIBLE_MACHINE:rk3568 = "rk3568"
+COMPATIBLE_MACHINE:rk3576 = "rk3576"
 COMPATIBLE_MACHINE:rk3588s = "rk3588s"
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
@@ -26,6 +27,7 @@ ALLOW_EMPTY:${PN} = "1"
 RKBIN_BINDIR:rk3308 ?= "bin/rk33/"
 RKBIN_BINDIR:rk3566 ?= "bin/rk35/"
 RKBIN_BINDIR:rk3568 ?= "bin/rk35/"
+RKBIN_BINDIR:rk3576 ?= "bin/rk35/"
 RKBIN_BINDIR:rk3588s ?= "bin/rk35/"
 
 do_deploy() {

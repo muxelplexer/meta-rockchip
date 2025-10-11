@@ -1,7 +1,7 @@
 DESCRIPTION = "Rockchip native tools related to their rkbin blobs, e.g. ddrbin_tool.py"
 
 SRC_URI = "git://github.com/rockchip-linux/rkbin;protocol=https;branch=master"
-SRCREV = "f43a462e7a1429a9d407ae52b4745033034a6cf9"
+SRCREV = "74213af1e952c4683d2e35952507133b61394862"
 LICENSE = "Proprietary"
 LIC_FILES_CHKSUM = "file://../LICENSE;md5=11e3673115959bf596feaaa6ea7ce9a5"
 
